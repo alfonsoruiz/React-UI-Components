@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+
+.author-name,
+.author-handle,
+.time-stamp,
+.author-post,
+.author-post p {
+    margin: 0 0;
+}
+
+.header,
+.author-info {
+    display: flex;
+}
+
+.author-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.author-logo,
+.author-name,
+.author-handle {
+    margin-right: 10px;
+}
+
+.author-name {
+    font-size: 1rem;
+}
+
+.author-handle,
+.time-stamp {
+    color: grey;
+}
+
+.author-post {
+    margin: 10px 0;
+}

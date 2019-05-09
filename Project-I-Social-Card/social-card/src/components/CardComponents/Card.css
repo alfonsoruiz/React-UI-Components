@@ -1,1 +1,28 @@
 /* All styles for your Card Components live here */
+
+.card {
+    margin-left: 60px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.card-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-heading {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.card-description {
+    margin: 0 0 10px 0;;
+}
+
+.card .card-link {
+    color: grey;
+    text-decoration: none;
+}
