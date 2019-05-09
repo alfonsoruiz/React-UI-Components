@@ -4,10 +4,15 @@
     margin-left: 60px;
 }
 
-.card a {
+.card a,
+.card .card-link {
     text-decoration: none;
+}
+
+.card a {
     color: black;
 }
+
 .card-img {
     width: 100%;
     border-radius: 5px;
@@ -19,10 +24,9 @@
 }
 
 .card-description {
-    margin: 0 0 10px 0;;
+    margin-bottom: 10px;
 }
 
 .card .card-link {
     color: grey;
-    text-decoration: none;
 }
