@@ -1,0 +1,10 @@
+.calculator {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.keypad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
